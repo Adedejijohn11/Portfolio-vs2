@@ -4,6 +4,7 @@ import About from "./components/about";
 import Project from "./components/project";
 import Contact from "./components/contact";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Project />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

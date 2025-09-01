@@ -7,7 +7,7 @@ const About = () => {
       className="h-full w-full lg:w-[80%] px-5 md:px-10 lg:px-0  "
     >
       <div className="pt-30 md:pt-40 h-full flex flex-col gap-8 items-center justify-center">
-        <h1 className="text-[20px] lg:text-[25px] text-green-600/30 font-bold">
+        <h1 className="text-[20px] lg:text-[25px] font-bold">
           ABOUT ME
         </h1>
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 ">

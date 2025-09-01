@@ -56,23 +56,23 @@ const Navbar = () => {
       {/* icon */}
       <button
         onClick={() => setIsopen(!isOpen)}
-        className=" flex md:hidden text-[30px]"
+        className=" flex md:hidden text-[30px]  bg-background"
       >
-        <IoIosMenu />
+        <IoIosMenu  />
       </button>
 
       {/* overLay */}
-      {isOpen && (
+      {/* {isOpen && (
         <div
           onClick={() => setIsopen(false)}
           className="fixed top-0 right-0 z-40 md:hidden w-full h-screen  bg-black/50 transition-transform duration-300"
         ></div>
-      )}
+      )} */}
 
       {/* SideModal */}
       <div
         className={`fixed top-0 right-0 z-50 md:hidden w-[250px] h-screen flex items-center justify-center bg-black transition-transform duration-300 ${
-          isOpen ? "translate-0 " : "translate-x-full"
+          isOpen ? "translate-0" : "translate-x-full"
         }`}
       >
         <button

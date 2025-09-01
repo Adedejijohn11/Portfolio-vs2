@@ -7,7 +7,7 @@ import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <div className="relative h-full w-full  scroll-smooth">
+    <div className="relative h-full w-full scroll-smooth">
       <Navbar />
       <div className="h-full w-full flex flex-col justify-center items-center  ">
         <Home />

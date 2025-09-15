@@ -19,14 +19,32 @@ const Home = () => {
             </p>
             {/* Social media  */}
             <div className="text-3xl mt-[35px] lg:mt-[38px] xl:mt-[48px] flex  gap-5">
-              <FaLinkedin />
-              <FaGithub />
+              <a
+                href="http://www.linkedin.com/in/johnadedeji"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center  "
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://github.com/Adedejijohn11"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center  "
+              >
+                <FaGithub />
+              </a>
             </div>
           </div>
           {/* Image */}
           <div className="h-full w-full md:w-[40%] flex  justify-center">
-            <div className="h-[200px]  lg:h-[250px] xl:h-[280px] w-[200px] lg:w-[250px] xl:w-[280px] rounded-full flex items-center bg-white text-amber-600">
-              image
+            <div className="h-[200px]  lg:h-[250px] xl:h-[280px] w-[200px] lg:w-[250px] xl:w-[280px] rounded-full flex items-center bg-white text-amber-600 overflow-hidden">
+              <img
+                src="/johnImg.jpg"
+                alt="myImage"
+                className="h-full w-full bg-center "
+              />
             </div>
           </div>
         </div>

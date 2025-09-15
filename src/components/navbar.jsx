@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { IoIosMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
 
@@ -14,18 +14,9 @@ const Navbar = () => {
     }
   };
 
-  // body should not scroll when sidemodal open and should be scroll when close
-  // useEffect(() => {
-  //   if (isOpen) {
-  //     document.body.classList.add("overflow-hidden");
-  //   } else {
-  //     document.body.classList.remove("overflow-hidden");
-  //   }
-  // }, [isOpen]);
-
   return (
     <div className=" fixed z-30 h-[60px] w-full flex justify-between items-center bg-background px-5  md:px-10 ">
-      <div className="text-[20px] font-bold">LOGO</div>
+      <div className="text-[20px] font-bold">John.Dev</div>
       <div className=" hidden md:flex gap-10 text-[20px] font-bold scroll">
         <li
           className=" cursor-pointer list-none"

@@ -11,8 +11,22 @@ const Footer = () => {
           </p>
         </div>
         <div className="text-[23px] hidden  md:flex  gap-5">
-          <FaLinkedin />
-          <FaGithub />
+          <a
+            href="http://www.linkedin.com/in/johnadedeji"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center  "
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/Adedejijohn11"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center  "
+          >
+            <FaGithub />
+          </a>
         </div>
       </div>
     </div>

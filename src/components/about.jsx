@@ -24,7 +24,7 @@ const About = () => {
               clean, responsive and user-friendly web applications. I have a
               strong foundation in HTML, CSS, and JavaScript, which I use as the
               backbone for creating accessible and scalable solutions. On top of
-              that, I specialize in modern tools like React, Next.js, and
+              that, I specialize in modern tools like React.js, Next.js, and
               Tailwind CSS to design interfaces that are visually engaging,
               fast, and optimized for performance. My focus is always on writing
               clean code, ensuring accessibility and delivering experiences that

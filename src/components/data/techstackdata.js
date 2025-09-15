@@ -26,7 +26,7 @@ const techstackdata = [
   },
   {
     id: 6,
-    name: "React",
+    name: "React.js",
     img: "/icons-react.png",
   },
   {

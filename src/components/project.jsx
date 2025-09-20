@@ -39,10 +39,15 @@ const Project = () => {
 
                 <p className="font-bold mt-6">HTML, CSS and JavaScript</p>
                 <div className="flex gap-8 mt-10">
-                  <div className="flex items-center ">
+                  <a
+                    href="https://github.com/Adedejijohn11/restaurant-project.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center "
+                  >
                     <span className="font-bold mr-1">Code</span>
                     <FaGithub className="text-2xl" />
-                  </div>
+                  </a>
                   <a
                     href="https://adedejijohn11.github.io/restaurant-project/
 "
@@ -77,10 +82,15 @@ const Project = () => {
 
                 <p className="font-bold mt-6">HTML, CSS and JavsScript</p>
                 <div className="flex gap-8 mt-10">
-                  <div className="flex items-center ">
+                  <a
+                    href="https://github.com/Adedejijohn11/E-commerce-page.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center "
+                  >
                     <span className="font-bold mr-1">Code</span>
                     <FaGithub className="text-2xl" />
-                  </div>
+                  </a>
                   <a
                     href="https://adedejijohn11.github.io/E-commerce-page/"
                     target="_blank"
@@ -116,14 +126,24 @@ const Project = () => {
                   React.js, Tailwind and TypeScript
                 </p>
                 <div className="flex gap-8 mt-10">
-                  <div className="flex items-center ">
+                  <a
+                    href="https://github.com/Adedejijohn11/protech.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center "
+                  >
                     <span className="font-bold mr-1">Code</span>
                     <FaGithub className="text-2xl" />
-                  </div>
-                  <div className="flex items-center  ">
+                  </a>
+                  <a
+                    href="https://protech-xi-three.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center  "
+                  >
                     <span className="font-bold mr-1">Live Demo</span>
                     <FaArrowUpRightFromSquare className="text-2xl" />
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -150,10 +170,15 @@ const Project = () => {
                   Nextjs, Tailwind and JavaScript
                 </p>
                 <div className="flex gap-8 mt-10">
-                  <div className="flex items-center ">
+                  <a
+                    href="https://github.com/Adedejijohn11/movie-website.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center "
+                  >
                     <span className="font-bold mr-1">Code</span>
                     <FaGithub className="text-2xl" />
-                  </div>
+                  </a>
                   <a
                     href="https://movie-website-eight-pi.vercel.app/"
                     target="_blank"

@@ -39,12 +39,14 @@ const Home = () => {
           </div>
           {/* Image */}
           <div className="h-full w-full md:w-[40%] flex  justify-center">
-            <div className="h-[200px]  lg:h-[250px] xl:h-[280px] w-[200px] lg:w-[250px] xl:w-[280px] rounded-full flex items-center bg-white text-amber-600 overflow-hidden">
-              <img
-                src="/johnImg.jpg"
-                alt="myImage"
-                className="h-full w-full bg-center "
-              />
+            <div className="h-[200px]  lg:h-[250px] xl:h-[280px] w-[200px] lg:w-[250px] xl:w-[280px] rounded-full flex items-center justify-center bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600  overflow-hidden">
+              <div className="h-[95%] w-[95%] flex items-center justify-center  bg-white rounded-full">
+                <img
+                  src="/johnImg.jpg"
+                  alt="myImage"
+                  className="h-[95%] w-[95%] rounded-full bg-center "
+                />
+              </div>
             </div>
           </div>
         </div>

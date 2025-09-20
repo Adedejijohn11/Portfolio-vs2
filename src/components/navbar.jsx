@@ -16,8 +16,10 @@ const Navbar = () => {
 
   return (
     <div className=" fixed z-30 h-[60px] w-full flex justify-between items-center bg-background px-5  md:px-10 ">
-      <div className="text-[20px] font-bold">John.Dev</div>
-      <div className=" hidden md:flex gap-10 text-[20px] font-bold scroll">
+      <div className="text-[20px] lg:text-[25px]  font-bold bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
+        John.Dev
+      </div>
+      <div className=" hidden md:flex gap-10 text-[20px] md:text-[18px] lg:text-[20px] font-bold scroll">
         <li
           className=" cursor-pointer list-none"
           onClick={() => handleScroll("home")}

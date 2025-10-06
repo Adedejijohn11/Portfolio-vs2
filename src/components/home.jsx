@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import techStackData from "../components//data//techstackdata";
+import ProfileImg from "/johnImg.jpg";
 
 const Home = () => {
   return (
@@ -42,7 +43,7 @@ const Home = () => {
             <div className="h-[200px]  lg:h-[250px] xl:h-[280px] w-[200px] lg:w-[250px] xl:w-[280px] rounded-full flex items-center justify-center bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600  overflow-hidden">
               <div className="h-[95%] w-[95%] flex items-center justify-center  bg-white rounded-full">
                 <img
-                  src="/johnImg.jpg"
+                  src={ProfileImg}
                   alt="myImage"
                   className="h-[95%] w-[95%] rounded-full bg-center "
                 />

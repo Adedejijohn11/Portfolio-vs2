@@ -21,25 +21,25 @@ const Navbar = () => {
       </div>
       <div className=" hidden md:flex gap-10 text-[20px] md:text-[18px] lg:text-[20px] font-bold scroll">
         <li
-          className=" cursor-pointer list-none"
+          className=" cursor-pointer list-none transition-all duration-300 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-red-500 hover:to-purple-600 hover:bg-clip-text hover:text-transparent"
           onClick={() => handleScroll("home")}
         >
           Home
         </li>
         <li
-          className=" cursor-pointer list-none"
+          className=" cursor-pointer list-none transition-all duration-300 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-red-500 hover:to-purple-600 hover:bg-clip-text hover:text-transparent"
           onClick={() => handleScroll("about")}
         >
           About
         </li>
         <li
-          className=" cursor-pointer list-none"
+          className=" cursor-pointer list-none transition-all duration-300 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-red-500 hover:to-purple-600 hover:bg-clip-text hover:text-transparent"
           onClick={() => handleScroll("project")}
         >
           Project
         </li>
         <li
-          className=" cursor-pointer list-none"
+          className=" cursor-pointer list-none  transition-all duration-300 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-red-500 hover:to-purple-600 hover:bg-clip-text hover:text-transparent"
           onClick={() => handleScroll("contact")}
         >
           Contact
@@ -54,15 +54,6 @@ const Navbar = () => {
         <IoIosMenu />
       </button>
 
-      {/* overLay */}
-      {/* {isOpen && (
-        <div
-          onClick={() => setIsopen(false)}
-          className="fixed top-0 right-0 z-40 md:hidden w-full h-screen  bg-black/50 transition-transform duration-300"
-        ></div>
-      )} */}
-
-      {/* SideModal */}
       <div
         className={`fixed top-0 right-0 z-50 md:hidden w-full h-screen flex items-center justify-center bg-black transition-transform duration-300 ${
           isOpen ? "translate-0" : "translate-x-full"
@@ -76,25 +67,25 @@ const Navbar = () => {
         </button>
         <div className="flex flex-col items-center  gap-10 text-[20px] font-bold  scroll ">
           <li
-            className=" cursor-pointer list-none"
+            className=" cursor-pointer list-none transition-all duration-300 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-red-500 hover:to-purple-600 hover:bg-clip-text hover:text-transparent"
             onClick={() => handleScroll("home")}
           >
             Home
           </li>
           <li
-            className=" cursor-pointer list-none"
+            className=" cursor-pointer list-none transition-all duration-300 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-red-500 hover:to-purple-600 hover:bg-clip-text hover:text-transparent"
             onClick={() => handleScroll("about")}
           >
             About
           </li>
           <li
-            className=" cursor-pointer list-none"
+            className=" cursor-pointer list-none transition-all duration-300 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-red-500 hover:to-purple-600 hover:bg-clip-text hover:text-transparent"
             onClick={() => handleScroll("project")}
           >
             Project
           </li>
           <li
-            className=" cursor-pointer list-none"
+            className=" cursor-pointer list-none transition-all duration-300 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-red-500 hover:to-purple-600 hover:bg-clip-text hover:text-transparent"
             onClick={() => handleScroll("contact")}
           >
             Contact

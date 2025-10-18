@@ -21,7 +21,7 @@ const Project = () => {
             <div className="flex flex-col md:flex-row gap-10 md:gap-15 ">
               <div className="h-[230px] md:h-[300px]  w-full md:w-[50%] rounded-2xl overflow-hidden">
                 <img
-                  src="/project-2.png"
+                  src="/project-1.png"
                   alt="project-1"
                   className="h-full w-full"
                 />
@@ -63,7 +63,7 @@ const Project = () => {
             <div className="flex flex-col md:flex-row-reverse gap-10 md:gap-15 ">
               <div className="h-[230px] md:h-[300px] w-full md:w-[50%] rounded-2xl overflow-hidden">
                 <img
-                  src="/dental.png"
+                  src="/project-2.png"
                   alt="project-2"
                   className="h-full w-full"
                 />

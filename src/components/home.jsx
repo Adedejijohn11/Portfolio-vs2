@@ -1,9 +1,9 @@
 import React from "react";
+import ProfileImg from "/johnImg.jpg";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import techStackData from "../components//data//techstackdata";
-
-import ProfileImg from "/johnImg.jpg";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -36,6 +36,14 @@ const Home = () => {
                 className="flex items-center  "
               >
                 <FaGithub />
+              </a>
+              <a
+                href="https://x.com/john_adedeji1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center  "
+              >
+                <FaSquareXTwitter />
               </a>
             </div>
           </div>

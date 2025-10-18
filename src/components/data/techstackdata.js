@@ -11,27 +11,32 @@ const techstackdata = [
   },
   {
     id: 3,
+    name: "Sass",
+    img: "/icon-Sass.png",
+  },
+  {
+    id: 4,
     name: "JavaScript",
     img: "/icons-javascript.png",
   },
   {
-    id: 4,
+    id: 5,
     name: "TypeScript",
     img: "/icons-typescript.png",
   },
   {
-    id: 5,
+    id: 6,
     name: "Tailwind",
     img: "/icons-tailwindcss.png",
   },
   {
-    id: 6,
+    id: 7,
     name: "React.js",
     img: "/icons-react.png",
   },
   {
-    id: 7,
-    name: "Next JS",
+    id: 8,
+    name: "Next.js",
     img: "/icons-nextjs.png",
   },
 ];

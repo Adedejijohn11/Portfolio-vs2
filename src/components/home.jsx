@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import techStackData from "../components//data//techstackdata";
+
 import ProfileImg from "/johnImg.jpg";
 
 const Home = () => {
@@ -59,7 +60,7 @@ const Home = () => {
             {techStackData.map((data) => (
               <div
                 key={data.id}
-                className="h-[120px] w-[90%]  md:w-[150px] flex flex-col items-center justify-center border-2 border-gray-500 rounded-2xl   transition-transform duration-2000 hover:rotate-y-400"
+                className="h-[120px] w-[90%]  md:w-[150px] flex flex-col items-center justify-center border-2 border-gray-500 rounded-2xl   transition-transform duration-2000 hover:rotate-y-400 "
               >
                 <img src={data.img} alt="" className="w-16 h-16" />
                 <p>{data.name}</p>
